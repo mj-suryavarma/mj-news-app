@@ -1,0 +1,28 @@
+.about-page{
+    font-family: cursive,Helvetica,sans-serif;
+    font-size: 20px;
+   margin:70px;
+  text-transform: capitalize;
+  line-height: 2;
+}
+.about-heading{
+   font-weight: 900;
+   text-align: center;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-section{
+    margin-top: 30px;
+    list-style:circle;
+}
+.steps{
+    list-style:inside;
+}
+header{
+    font-size: 1.5rem;
+    font-weight:600;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+.remember{
+    color:gray;
+}
