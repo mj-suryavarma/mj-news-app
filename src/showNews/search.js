@@ -2,7 +2,7 @@ import React,{useState,useEffect} from "react";
 import './news.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleUp, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faAngleUp } from '@fortawesome/free-solid-svg-icons'
 
 const SearchPage =()=>{
     
@@ -11,7 +11,7 @@ const SearchPage =()=>{
     const [news, setNews] = useState([]);
     const [url, setUrl] = useState('https://newsapi.org/v2/everything?q=all&sortBy=publishedAt&apiKey=ee2e5eb315f4449591d9de25b864cb43')
       
-    const [category, setCategory] = useState('');
+    const [category, setCategory] = useState('all');
 
     // initialze fetching news
 
@@ -30,14 +30,15 @@ const SearchPage =()=>{
           
 
           const showHeadline = () =>{
-
+              const time = new Date();
+              const giveId = time.toLocaleTimeString();
          
 
-            return ( news.map((n,i) => (
-            <a href={n.url} target="_blank">
+            return ( news.map((n) => (
+            <a href={n.url} target="_blank" rel="noreferrer">
                 <button  type="button"
             className="headline-news"
-              key={i.index}> 
+              key={giveId}> 
              <div className="title">{n.title}</div>
              <img className="news-img" src={n.urlToImage} />
             <div>{n.description}</div>
@@ -56,7 +57,9 @@ const SearchPage =()=>{
           window.scrollTo({
               top:0
           })
+           
           return(
+
             setUrl(`https://newsapi.org/v2/everything?q=${category}&sortBy=publishedAt&apiKey=ee2e5eb315f4449591d9de25b864cb43`)
       )
     }
@@ -69,13 +72,13 @@ const SearchPage =()=>{
    
     return(<>
     <form className="form-control" >
-    <label> Select your category news  
+    <label> Select your category</label>
     <select 
          value={category}
           onChange={changeHandler}
           className="select-category"
           >   
-             <option value="all">All</option>
+             <option value="tech">All</option>
              <option value="trending">trending</option>
              <option value="weather and climate">weather and climate</option>
              <option value="sports">sports</option>
@@ -86,7 +89,7 @@ const SearchPage =()=>{
              <option value="bussiness">bussiness</option>
              <option value="movies">movies</option>
          </select>
-         </label>
+        
          <button type="submit" 
          className="search-btn" 
          onClick={submitHandler}>search</button>

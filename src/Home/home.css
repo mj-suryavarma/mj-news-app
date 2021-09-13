@@ -116,3 +116,20 @@
     text-transform: uppercase;
 
 }
+@media screen and (max-width:800px) {
+ 
+    .logo{
+        font-size: 2.2rem;
+    }
+  
+    .nav-link{
+        font-size: 1rem;
+    }
+    .nav-about{
+        display: none;
+
+    }
+    .nav-contact{
+        display: none;
+    }
+    }

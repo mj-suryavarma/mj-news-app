@@ -64,3 +64,10 @@
   font-family: cursive,Helvetiva;
 
  }
+ @media screen and (max-width:750px) {
+ 
+  
+  .top-head{
+     position: relative;
+  }
+  }

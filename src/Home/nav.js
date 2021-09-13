@@ -11,10 +11,10 @@ function NavigationPage (){
         <Link to="/" className="logo" >
                      MJ News</Link>
                      <ul className="nav">
-                     <Link  className="nav-link" to="/about">
+                     <Link  className="nav-link nav-about" to="/about">
                      <li>About us</li>
                      </Link>
-                     <Link className="nav-link" to='/contact'>
+                     <Link className="nav-link nav-contact" to='/contact'>
                      <li >Contact us</li>
                      </Link>
                      <Link className="nav-link " to="/Search">
