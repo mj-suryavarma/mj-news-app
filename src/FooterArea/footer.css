@@ -22,6 +22,9 @@
     text-decoration:none;
     color:#fff;
 }
+.footer-links:hover{
+  color: blue;
+}
 .footer-privacy{
     display:flex;
     flex-direction:column;

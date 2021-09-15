@@ -26,8 +26,8 @@ const AboutPage = ()=>{
                            <li className="steps">
                           Click the read news button such as top of the website
                          </li >
-                         <li className="steps">read the overall news</li>
-                         <li className="steps">if you want to read your favorite topic news, select the category </li>
+                         <li className="steps">read the top trending news from around the world!</li>
+                         <li className="steps">or if you want to read your favorite topic news, just search what you want </li>
                          <li className="steps">and Click the search button read your favorite news</li>
                 </ul> 
             </section>

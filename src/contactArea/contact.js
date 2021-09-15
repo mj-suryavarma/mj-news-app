@@ -10,6 +10,12 @@
              <p>
                  Email: mjsuryavarma@gmail.com
              </p>
+             <p>
+                 LinkedIn: <a className="about-contact-link" href="https://www.linkedin.com/in/m-jithendra-suryavarma-9b245020a/" target="_blank">https://www.linkedin.com/in/m-jithendra-suryavarma-9b245020a/</a>
+             </p>
+             <p>
+               GitHub:  <a className="about-contact-link" href="https://github.com/mj-suryavarma" target="_blank"> https://github.com/mj-suryavarma </a>
+             </p>
         </div>
         
         <FooterArea />
