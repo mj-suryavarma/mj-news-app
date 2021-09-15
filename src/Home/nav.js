@@ -17,7 +17,7 @@ function NavigationPage (){
                      <Link className="nav-link nav-contact" to='/contact'>
                      <li >Contact us</li>
                      </Link>
-                     <Link className="nav-link " to="/Search">
+                     <Link className="nav-link " to="/read-news">
                      <button className="read-btn">Read news</button>
                      </Link >
         

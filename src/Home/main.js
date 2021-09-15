@@ -15,11 +15,11 @@ const MainPage = ()=>{
   <section className="explaine-area">
     <div className="declaration" >
        <p id="how-it-works">How it works</p>
-      <p id="read-your-fav">Read your favorite news within one line from around the world!</p>
+      <p id="read-your-fav">Read your favorite news within one line from around the World!.Read Top Trending News</p>
     </div>
       <div className="declare-img">
         <div className="img-over">
-        <p>Select your favorite category</p>
+        <p> your favorite News</p>
        
         <p>Search what you want</p>
         </div>

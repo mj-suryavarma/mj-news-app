@@ -4,3 +4,11 @@
     text-align: center;
     height: 50vmin;
 }
+a{
+    text-decoration: none;
+    color: black;
+
+}
+.about-contact-link:hover{
+    color:blue;
+}

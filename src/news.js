@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 // import Login from './SignInPage/Login';
-import Search from './showNews/search';
+import SelectTheCategory from './showNews/selectCategory';
 import HomePage from './Home/home';
 import MainPage from './Home/main';
 import AboutPage from './About us/about'
@@ -18,8 +18,8 @@ function NewsPage() {
         <HomePage />  
       </header>
       <Switch>
-        <Route exact path='/' component={MainPage} />
-        <Route  path='/Search' component={Search}  />
+        <Route exact  path='/' component={MainPage} />
+        <Route  path='/read-news' component={SelectTheCategory}  />
         <Route path="/about" component={AboutPage}/>
         <Route  path="/contact" component={ContactPage}/>
       </Switch>
