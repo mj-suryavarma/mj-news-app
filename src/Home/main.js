@@ -1,5 +1,6 @@
 import './home.css'
 import FooterArea from '../FooterArea/footer';
+import '../showNews/news.css'
 
 
 const MainPage = ()=>{
@@ -15,7 +16,7 @@ const MainPage = ()=>{
   <section className="explaine-area">
     <div className="declaration" >
        <p id="how-it-works">How it works</p>
-      <p id="read-your-fav">Read your favorite news within one line from around the World!.Read Top Trending News</p>
+      <p id="read-your-fav">Read your favorite news within one line from around the World!.<br/>Read Top Trending News</p>
     </div>
       <div className="declare-img">
         <div className="img-over">

@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import myImage from './jithendra.jpg'
+import myImage from '../srcImg/mj.jpg'
 import {Link} from 'react-router-dom'
 
 

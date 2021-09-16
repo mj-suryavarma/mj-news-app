@@ -6,7 +6,10 @@
 
     return(<>
         <div className="contact-page">
-            <h2 className="contact-heading">Contact us</h2>
+
+            <div className="contact-content">
+        <h2 className="contact-heading">Contact us</h2>
+             
              <p>
                  Email: mjsuryavarma@gmail.com
              </p>
@@ -16,6 +19,7 @@
              <p>
                GitHub:  <a className="about-contact-link" href="https://github.com/mj-suryavarma" target="_blank"> https://github.com/mj-suryavarma </a>
              </p>
+            </div>
         </div>
         
         <FooterArea />
